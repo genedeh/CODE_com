@@ -6,4 +6,5 @@ class User(models.Model):
     username = models.CharField(max_length=200)
     email = models.EmailField(max_length=245)
     password = models.CharField(max_length=86)
+    avater = models.ImageField()
 
